@@ -7,7 +7,7 @@ enable :sessions
   end
 
   post '/checkout' do
-    binding.pry
+  
     @item = session.merge!("item" => "socks")
 
     erb :checkout
