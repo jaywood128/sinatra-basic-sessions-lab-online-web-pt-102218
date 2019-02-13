@@ -7,6 +7,7 @@ enable :sessions
   end
 
   post '/checkout' do
+    binding.pry
 
     erb :checkout
   end
